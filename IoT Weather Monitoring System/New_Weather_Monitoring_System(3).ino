@@ -19,9 +19,9 @@
 #define DHTTYPE DHT11   // DHT sensor type
 
 // Blynk authentication token, Wi-Fi credentials
-char auth[] = "nFcXBWXtKjIz4jEhSfDwTXWOWWZJFrZ7";
-char ssid[] = "I-HUB";
-char password[] = "pilani@2019";
+char auth[] = "*******************";
+char ssid[] = "**********";
+char password[] = "*********";
 
 // Global variables 
 DHT dht(DHTPIN, DHTTYPE);
