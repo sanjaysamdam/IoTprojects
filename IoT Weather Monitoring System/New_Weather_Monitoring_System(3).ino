@@ -67,7 +67,7 @@ void loop() {
   lcd.setCursor(0, 0);  //set cursor at 0th row and 0th column <lcd.setCursor(column,row)> .Column (0 to 15) and row (0 to 1)
   lcd.print("TEMP: ");   //Display TEMP in lcd
   lcd.print(temperature); //Display the value stored in temperature on lcd
-  lcd.setCursor(12, 0);   //set cursor at 0th row and 12th column
+  lcd.setCursor(9, 0);   //set cursor at 0th row and 12th column
   lcd.write(byte(0xDF)); // Display the degree(°) symbol
   lcd.print("C");     // Display C on lcd
   Blynk.virtualWrite(V0, temperature);   // Send the temperature value to the Blynk app, updating virtual pin V0
